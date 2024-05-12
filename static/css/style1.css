@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif; /* Shriftingiz */
+    background-color: #f4f4f4; /* Orqa fon rangi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-title {
+    color: #333;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.product-price {
+    color: #888;
+    font-size: 20px;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
